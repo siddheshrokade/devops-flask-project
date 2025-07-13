@@ -1,0 +1,44 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# === Django ===
+*.db
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# === Virtual Environments ===
+env/
+venv/
+ENV/
+.venv/
+.env
+.env.*
+
+# === Node.js / React ===
+node_modules/
+build/
+dist/
+npm-debug.log
+yarn-error.log
+
+# === System ===
+.DS_Store
+Thumbs.db
+
+# === VS Code ===
+.vscode/
+
+# === PyCharm ===
+.idea/
+
+# === Git merge/conflict files ===
+*.orig
+*.swp
+*.swo
